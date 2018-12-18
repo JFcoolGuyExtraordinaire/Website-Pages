@@ -2,6 +2,10 @@
   background-color: #595756;
 }
 
+#bg2 {
+  background-color: #343A40;
+}
+
 #botcont {
   top:75px;
 }
@@ -20,6 +24,13 @@
   color: white;
 }
 
+#copyright {
+  text-align: center;
+  margin-top: 140px;
+  color: white;
+  font-size: 12px;
+}
+
 h1 {
   text-shadow: 2px 2px #000000;
 }
@@ -29,8 +40,8 @@ h1 {
   display: block;
 }
 
-.bc img {
-  border-radius:50%;
+.img-circle {
+    border-radius: 50%;
 }
 
 .flex-row {
