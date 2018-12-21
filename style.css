@@ -48,3 +48,18 @@ h1 {
   display: flex;
   justify-content: center;
 }
+.container{
+  position: relative;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.container .outageReportButton{
+  position: relative;
+  background-color: #6f747c;
+  font-size: 20px;
+  color: white;
+  margin-left: 220px;
+}
+.container .outageReportButton:hover{
+  background-color: #c7d1e0;
+}
