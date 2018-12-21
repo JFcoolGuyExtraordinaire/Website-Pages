@@ -43,7 +43,9 @@ h1 {
 .img-circle {
     border-radius: 50%;
 }
-
+.homecontainer{
+  margin-left: 100px;
+}
 .flex-row {
   display: flex;
   justify-content: center;
@@ -62,4 +64,14 @@ h1 {
 }
 .container .outageReportButton:hover{
   background-color: #c7d1e0;
+}
+.col-sm h3 {
+  color:  white;
+  text-decoration: underline;
+  width: 300px;
+}
+.col-sm p {
+  color:  white;
+  font-size: 20px;
+  width: 300px;
 }
