@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="./style.css"/>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" type="text/css" href="./faqstyle.css"/>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131018678-1"></script>
 <script>
@@ -13,6 +11,9 @@
   gtag('js', new Date());
   gtag('config', 'UA-131018678-1');
 </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <title>MAXXPower - FAQ</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -42,12 +43,164 @@
     </div>
   </nav>
 
-  <div id="copyright">
-    <p>Phone: (804) 745-6486<br>
-      Email: maxxpower@gmail.com<br>
-      Address: 201 W. 7th St.Richmond, VA 23224<br>
-      ©MAXX⚡Power</p>
+  <div class="container">
+  <div class="row">
+    <div class="col" id="hd1">
+      <h1>FAQ</h1>
+      <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+          Why can't I get a restoration time for my power to be back on?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" class="collapsing" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        We don't provide individual restoration times until we're sure of all needed repairs. Careful assessment of damage and planning for repairs ensures more accurate times when we do provide them.
+      </div>
+    </div>
   </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          How are restoration times determined?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" class="collapsing" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Estimated times of restoration (ETRs) are based on information from the field as it becomes available; both from customers calling in to report outages and from our crews. Using that information, we refine our restoration plan and estimate when service could be returned to individual customers. After visiting the site, crews may find more damage, which takes more time to fix and creates adjustments for the ETRs.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Do customers with medical certifications get their power restored first?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse"  class="collapsing" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        We're concerned about the well-being of customers most vulnerable in power outages. However, critical facilities and infrastructures are restored first, such as hospitals, fire and police stations, water purification facilities, etc. You should always be prepared with battery-or-manually-powered medical equipment. For longer outages, have a plan to receive proper care somewhere else until service is restored.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          Why does my neighbor have power and I don't?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse"  class="collapsing" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+      Storm damage can affect main power lines, individual circuits or both. It’s possible your individual circuit may be damaged or you could be on a different main power line than your neighbor. If your neighbor’s power is back on but yours is not, please report your outage.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+          When do you make repairs?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse"  class="collapsing" aria-labelledby="headingFive" data-parent="#accordionExample">
+      <div class="card-body">
+        Restoration work is performed around the clock, as long as conditions are safe to do so. Field crews work up to 16 hours a day following major events, mostly during daylight hours to maximize their efficiency. At night, a smaller number of workers are in the field, handling public safety issues and continuing restoration work. We also have workers analyzing damage reports, organizing the next day’s work and replenishing supplies.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+          Why do I sometimes see your crews sitting in parking lots and not working?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse"  class="collapsing" aria-labelledby="headingSix" data-parent="#accordionExample">
+      <div class="card-body">
+        Our crews may park while they are waiting for their next work assignments, additional line crews to arrive, and/or information necessary to safely complete repairs. Also, crews traveling in from other areas often assemble at staging areas and perform safety briefings before starting their assigned project. Crews often use computers in their trucks to send status updates or information about storm damage to analysts and field personnel.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSeven">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+        Why do you call me to verify my lights are on?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSeven" class="collapse"  class="collapsing" aria-labelledby="headingSeven" data-parent="#accordionExample">
+      <div class="card-body">
+        When a storm event causes extensive damage in an area, we must contact individual customers to determine whether power has successfully been restored to the entire line. By verifying your lights are on, you're helping confirm we've repaired all the damage.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingEight">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+      Why does my power come on (for hours sometimes), and then go back out and stay out?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseEight" class="collapse"  class="collapsing" aria-labelledby="headingEight" data-parent="#accordionExample">
+      <div class="card-body">
+      While we make repairs in your area, your service may go on and off intermittently so our crews can safely make repairs. Our crews sometimes have to make temporary repairs to quickly restore power, and then service may be disrupted later to complete permanent repairs.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingNine">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
+      Why did one of your trucks come to our neighborhood but not stop?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseNine" class="collapse"  class="collapsing" aria-labelledby="headingNine" data-parent="#accordionExample">
+      <div class="card-body">
+      Following a storm, our field crews first assess the damage before work can begin. This is why you may have seen our trucks pass through your neighborhood without stopping. The information they gather is used to identify and plan repairs, then work crews are sent out.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTen">
+      <h5 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseThree">
+      How do you prepare for major storms?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTen" class="collapse"  class="collapsing" aria-labelledby="headingTen" data-parent="#accordionExample">
+      <div class="card-body">
+      We monitor the weather forecast and plan our storm response accordingly. When conditions allow, we send field crews to areas most likely to be affected by the storm. We also staff local offices with additional restoration management and patrol teams who assess damage immediately after the weather clears and it is safe for them to work. For large-scale events, we often request help from other utility companies and out-of-state contractors.
+      </div>
+    </div>
+  </div>
+</div>
+<div id="copyright">
+  <p>Phone: (804) 745-6486<br>
+    Email: maxxpower@gmail.com<br>
+    Address: 201 W. 7th St.Richmond, VA 23224<br>
+    ©MAXX⚡Power</p>
+</div>
+    </div>
+  </div>
+
+
+
+
 
 </div>
 </body>
