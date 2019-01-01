@@ -52,8 +52,35 @@ h1 {
 .img-circle {
     border-radius: 50%;
 }
-
+.homecontainer{
+  margin-left: 100px;
+}
 .flex-row {
   display: flex;
   justify-content: center;
+}
+.container{
+  position: relative;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.container .outageReportButton{
+  position: relative;
+  background-color: #6f747c;
+  font-size: 20px;
+  color: white;
+  margin-left: 220px;
+}
+.container .outageReportButton:hover{
+  background-color: #c7d1e0;
+}
+.col-sm h3 {
+  color:  white;
+  text-decoration: underline;
+  width: 300px;
+}
+.col-sm p {
+  color:  white;
+  font-size: 20px;
+  width: 300px;
 }
