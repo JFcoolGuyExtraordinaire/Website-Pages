@@ -27,6 +27,7 @@
   align-items: center;
 }
 
+
 #hd1 {
   top:50px;
   text-align: center;
@@ -52,17 +53,15 @@ h1 {
 .img-circle {
     border-radius: 50%;
 }
-.homecontainer{
-  margin-left: 100px;
-}
+
 .flex-row {
   display: flex;
   justify-content: center;
 }
-.container{
+#outagecontainer{
   position: relative;
   margin-top: 100px;
-  margin-left: 400px;
+  margin-left: 220px;
 }
 .container .outageReportButton{
   position: relative;
