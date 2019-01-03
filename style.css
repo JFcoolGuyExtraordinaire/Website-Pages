@@ -73,13 +73,13 @@ h1 {
 .container .outageReportButton:hover{
   background-color: #c7d1e0;
 }
-.col-sm h3 {
+.col-sm h1 {
   color:  white;
   text-decoration: underline;
+  font-size: 30px;
   width: 300px;
 }
 .col-sm p {
   color:  white;
   font-size: 20px;
-  width: 300px;
 }
